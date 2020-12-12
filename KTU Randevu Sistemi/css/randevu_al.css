@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+    background: url('../fotograflar/arkaplan.jpg');
+    height:100%;
+    background-position: 50%;
+    background-size:cover;
+    background-attachment: fixed;
+	font-family: 'Poppins',sans-serif;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 10 px;
+}
+.resim{
+    margin-top: 70px;
+	text-align:center;
+	width:300px;
+	box-sizing:border-box;
+	box-sizing:30px;
+    background: rgba(33, 33, 33,0.8);
+}
+.resim form{
+	margin-top:10px;
+	padding-top: 10px;
+}
+.resim select{
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #fff;
+	position: relative;
+	margin-left: 30px;
+}
+#tc{
+	margin-bottom: 20px;
+	width: 80%;
+	text-align: center;
+}
+.saat{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+}
+#randevu_tarihi{
+	margin-left:5px;
+	width:83%;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 30px;
+}
+.resim label{
+	color:white;
+}
+.resim input{
+    margin: auto;
+	height:50px;
+	width:80%;
+	padding:0 20px;
+	box-sizing: border-box;
+	font-size:18px;
+	outline:none;
+	border: 1px solid #000;
+}
+.resim span{
+	position:absolute;
+    font-size:13px;
+	top:15px;
+	left:50px;
+	padding:0;
+	transition:0.5s;
+	pointer-events:none;
+	background: #fff;
+}
+.button{
+	background:#FFEB3B;
+	margin-bottom: 20px;
+	border:none;
+	box-shadow:none;
+	cursor:pointer;
+	font-weight: 600;
+	height: 70px;
+	width: 250px;
+	border-radius: 30px;
+}
+.button:hover{
+	background-color: #6c7a89;
+    color:#dae1e7;
+}
+/* Takvim CSS Başlangıcı */
+.time-frame {
+    background-color: #027bb5;
+    color: #fff;
+    width: auto;
+    min-width: 160px;
+    font-family: Arial;
+    margin-left:47%;
+    margin-top: 15px;
+    display:table;
+    position: absolute;
+    padding:10px 10px;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.time-frame > div {
+    width: 100%;
+    text-align: center;
+}
+
+#tarih-bolumu {
+    font-size: 18px;
+    color:#a9fff7;
+}
+#saat-bolumu {
+    font-size: 32px;
+    line-height: 30px;
+    margin-top:5px;
+}
+/* Takvim CSS Sonu */
+/* Select'lerin CSS kodları Select.css dosyasının
+içinde yer almaktadır. */

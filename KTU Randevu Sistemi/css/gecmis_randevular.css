@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+body{
+    font-size:13px;
+    font-family:'Palanquin',sans-serif;
+    margin:0;
+}
+form{
+    padding: 30px 40px 30px;
+    border-radius: 25px;
+    background: pink;
+}
+.resim{
+    background: url('../fotograflar/randevugecmis.jpg');
+    height:100%;
+    background-position: 50%;
+    background-size:cover;
+    background-attachment: fixed;
+}
+table{
+    top: 50px;
+    cell-color:black;
+}

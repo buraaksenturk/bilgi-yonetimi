@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+body{
+    font-size:13px;
+    font-family:'Palanquin',sans-serif;
+    margin:0;
+}
+form{
+    padding: 30px 40px 30px;
+    border-radius: 25px;
+    background: pink;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 150px;
+
+}
+.iinfoo{
+    text-align: center;
+    color:#fff;
+    font-size:15px;
+    text-shadow: 1px 3px 3px  black;
+}
+.resim{
+    background: url('../fotograflar/arka.jpeg');
+    height:664px;
+    background-position: 50%;
+    background-size:cover;
+    background-attachment: fixed;
+}
+span{
+    display:inline-block;
+    position:relative;
+}
+#baslik{
+    position: absolute;
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 340px;
+    color: #0277BD;
+    text-shadow: 1px 3px 3px  black;
+}
+/* Takvim CSS Başlangıcı */
+.time-frame {
+    background-color: #027bb5;
+    color: #fff;
+    width: auto;
+    min-width: 160px;
+    font-family: Arial;
+    margin-left:87%;
+    margin-top: 15px;
+    display:table;
+    position: absolute;
+    padding:10px 10px;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.time-frame > div {
+    width: 100%;
+    text-align: center;
+}
+
+#tarih-bolumu {
+    font-size: 18px;
+    color:#a9fff7;
+}
+#saat-bolumu {
+    font-size: 32px;
+    line-height: 30px;
+    margin-top:5px;
+}
+/* Takvim CSS Sonu */
+/* Butonların CSS dosyası CSS klasörü içerisindeki Buton.css de
+yer almaktadır. */

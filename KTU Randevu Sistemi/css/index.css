@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Palanquin:400,600&subset=latin,latin-ext);
+body{
+    font-size:13px;
+    font-family:'Palanquin',sans-serif;
+    margin:0;
+}
+.text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 150px;
+
+}
+.iinfoo{
+    text-align: center;
+    color:#fff;
+    font-size:15px;
+    text-shadow: 1px 3px 3px  black;
+}
+.resim{
+    background: url('../fotograflar/image18.png');
+    height:664px;
+    background-position: 50%;
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{
+    font-size:50px;
+    text-shadow: 1px 4px 6px black;
+    margin: 0;
+}
+span{
+    display:inline-block;
+    position:relative;
+}
+.wrapper .btn{
+  margin: 30px; 
+  margin-top: 60px;
+  border: 2px solid #ffd324;
+  width: 100px;
+  float: left;
+  height: 100px;
+  border-radius:50px;
+  text-align: center;
+  line-height:45px;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper .btn a{
+  color: #ffd324;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: block;
+  position: relative;
+  z-index: 999;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn a:hover{
+  color: #30333A;
+}
+
+.wrapper .btn.btn_1:before{
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_1:after{
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_1:hover:before{
+  top: -20px;
+}
+.wrapper .btn.btn_1:hover:after{
+  top: 20px;
+}
+
+.wrapper .btn.btn_2:before{
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(-10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_2:after{
+  content: "";
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffd324;
+  transform: skewY(-10deg);
+  transition: all 0.5s ease;
+}
+
+.wrapper .btn.btn_2:hover:before{
+  top: -20px;
+}
+.wrapper .btn.btn_2:hover:after{
+  top: 20px;
+}
