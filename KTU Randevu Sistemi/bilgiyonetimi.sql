@@ -181,7 +181,7 @@ CREATE TABLE `hastalar` (
 --
 
 INSERT INTO `hastalar` (`hasta_id`, `ad`, `soyad`, `tc`, `sifre`, `tel`, `cinsiyet`) VALUES
-(1, 'Burak', 'Şentürk', 68002070520, 'fenerbahce1907', 2147483647, 'Erkek'),
+(1, 'Burak', 'Şentürk', 11111111111, 'fenerbahce1907', 2147483647, 'Erkek'),
 (2, 'Yasin', 'Şentürk', 22365478965, 'yasin1907', 2147483647, 'Erkek'),
 (3, 'Reyhan', 'Şahin', 20453020896, 'reyhan6161', 2147483647, 'Kadın'),
 (4, 'Yiğitcan', 'Şentürk', 65459683201, 'yigit5757', 2147483647, 'Erkek'),
